@@ -1,0 +1,38 @@
+@media screen and (max-width: 860px){
+    .container{
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width: 830px){
+    .page h1,
+    .page h2,
+    .page h3{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 830px){
+    .page h1,
+    .page h2,
+    .page h3{
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .square{
+        width: 146px;
+        height: 146px;
+    }
+}
+
+@media screen and (max-width: 375px){
+    body{
+        min-width: 320px;
+    }
+
+    .container{
+        min-height: 450px;
+    }
+}
